@@ -22,6 +22,14 @@ app.get('/api/cursos', (req, res) => {
     res.send(JSON.stringify(infoCursos));
 });
 
+app.get('/api/cursos/programacion', (req,res) => {
+res.send(JSON.stringify(infoCursos.programacion));
+});
+
+app.get('/api/cursos/matematicas', (req,res) => {
+res.send(JSON.stringify(infoCursos.matematicas));
+});
+
 
 
 // asignar un puerto
