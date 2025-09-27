@@ -106,7 +106,7 @@ let infoCursos = {
 
 
 
-    // Lenguas ----
+    // Idiomas ----
 
 
 
