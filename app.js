@@ -12,7 +12,7 @@ const routerMatematicas = express.Router();
 app.use('/api/cursos/matematicas', routerMatematicas);
 
 
-// routas
+// rutas
 app.get('/', (req, res) => {
     res.send("Bienvenidos a mi primer servidor con Express. Cursos");
 });
