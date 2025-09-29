@@ -33,7 +33,7 @@ La API estará disponible en `http://localhost:3000` (o el puerto configurado).
 - `DELETE /cursos/:id` — Elimina un curso
 
 ## Autor
-- JRiveraCode
+- JRiveraCode - Zander1612 -cesarbdeveloper
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
