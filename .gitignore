@@ -1,0 +1,4 @@
+# Ignorar el repositorios de node_modules
+node_modules/
+
+
