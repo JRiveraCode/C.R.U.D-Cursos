@@ -25,15 +25,35 @@ node app.js
 
 La API estará disponible en `http://localhost:3000` (o el puerto configurado).
 
-## Endpoints principales
-- `GET /cursos` — Lista todos los cursos
-- `GET /cursos/:id` — Obtiene un curso por ID
+## Endpoints programacion
+- `GET /api/cursos` — Lista todos los cursos
+- `GET /api/cursos/programacion` — Lista todos los cursos de programación
+- `GET /api/cursos/programacion/:id` — Obtiene un curso de programación por ID
+- `GET /api/cursos/programacion/:lenguaje?ordenar=vistas` — Obtiene el curso de programación por lenguaje y ordena por vistas
+- `GET /api/cursos/programacion/:nivel` — Obtiene un curso de programación por nivel
+
+## Endpoints matematicas
+
+- `GET /api/cursos/matematicas` — Lista todos los cursos de matemáticas
+- `GET /api/cursos/matematicas/:id` — Obtiene un curso de matemáticas por ID
+- `GET /api/cursos/matematicas/:tema?ordenar=vistas` — Obtiene el curso de matemáticas por tema y ordena por vistas
+- `GET /api/cursos/matematicas/:nivel` — Obtiene un curso de matemáticas por nivel
+
+## Endpoints idiomas
+
+- `GET /api/cursos/idiomas` — Lista todos los cursos de idiomas
+- `GET /api/cursos/idiomas/:id` — Obtiene un curso de idiomas por ID
+- `GET /api/cursos/idiomas/:idioma?ordenar=vistas` — Lista todos los cursos de idiomas por idioma y ordena por vistas
+- `GET /api/cursos/idiomas/:nivel` — Obtiene un curso de idiomas por nivel
+
+## Endpoints adicionales
+
 - `POST /cursos` — Crea un nuevo curso
 - `PUT /cursos/:id` — Actualiza un curso existente
 - `DELETE /cursos/:id` — Elimina un curso
 
 ## Autor
-- JRiveraCode - Zander1612 -cesarbdeveloper
+- JRiveraCode - Zander1612 - cesarbdeveloper
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
