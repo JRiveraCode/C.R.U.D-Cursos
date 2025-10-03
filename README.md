@@ -48,9 +48,18 @@ La API estará disponible en `http://localhost:3000` (o el puerto configurado).
 
 ## Endpoints adicionales
 
-- `POST /cursos` — Crea un nuevo curso
-- `PUT /cursos/:id` — Actualiza un curso existente
-- `DELETE /cursos/:id` — Elimina un curso
+- `POST /api/cursos/programacion` — Crea un nuevo curso de programación
+- `POST /api/cursos/matematicas` — Crea un nuevo curso de matemáticas
+- `POST /api/cursos/idiomas` — Crea un nuevo curso de idiomas
+
+- `PUT /api/cursos/programacion/:id` — Actualiza un curso de programación existente
+- `PUT /api/cursos/matematicas/:id` — Actualiza un curso de matemáticas existente
+- `PUT /api/cursos/idiomas/:id` — Actualiza un curso de idiomas existente
+
+- `DELETE /api/cursos/programacion/:id` — Elimina un curso de programación existente
+- `DELETE /api/cursos/matematicas/:id` — Elimina un curso de matemáticas existente
+- `DELETE /api/cursos/idiomas/:id` — Elimina un curso de idiomas existente
+
 
 ## Autor
 - JRiveraCode - Zander1612 - cesarbdeveloper
