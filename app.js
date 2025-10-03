@@ -12,7 +12,7 @@ const routerMatematicas = express.Router();
 app.use('/api/cursos/matematicas', routerMatematicas);
 
 
-// routas
+// rutas
 app.get('/', (req, res) => {
     res.send("Bienvenidos a mi primer servidor con Express. Cursos");
 });
@@ -20,6 +20,14 @@ app.get('/', (req, res) => {
 // API cursos
 app.get('/api/cursos', (req, res) => {
     res.send(JSON.stringify(infoCursos));
+});
+
+app.get('/api/cursos/programacion', (req,res) => {
+res.send(JSON.stringify(infoCursos.programacion));
+});
+
+app.get('/api/cursos/matematicas', (req,res) => {
+res.send(JSON.stringify(infoCursos.matematicas));
 });
 
 

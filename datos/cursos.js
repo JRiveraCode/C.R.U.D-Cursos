@@ -57,17 +57,61 @@ let infoCursos = {
             nivel: "intermedio",
         }
     ]
-
-    // Matematicas ----
-
-
-
-    // Lenguas ----
-
-
-
-
 }
+
+    // Matematicas 
+ matematicas : [
+        {
+            id: 1, 
+            titulo: 'Aprende Calculo',
+            tema: 'calculo',
+            vistas: 12427,
+            nivel : 'basico'
+        },
+        {
+            id: 2, 
+            titulo: 'Aprende Algebra',
+            tema: 'algebra',
+            vistas: 15722,
+            nivel : 'intermedio'
+
+        },
+         {
+            id: 3, 
+            titulo: 'Aprende Aritmetica',
+            tema: 'aritmetica',
+            vistas: 15666,
+            nivel : 'basico'
+
+        },
+         {
+            id: 4, 
+            titulo: 'Aprende Geometria ',
+            tema: 'geometria',
+            vistas: 17800,
+            nivel : 'avanzado'
+
+        },
+         {
+            id: 5, 
+            titulo: 'Aprende Estadistica y probabilidad',
+            tema: 'estadistica y probabilidad',
+            vistas: 20000,
+            nivel : 'avanzado'
+
+        },
+
+
+    ]
+
+
+
+    // Idiomas ----
+
+
+
+
+
 
 
 // Exportar 
